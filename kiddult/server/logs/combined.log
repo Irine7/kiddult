@@ -1,0 +1,616 @@
+2025-03-03 21:47:51:4751 [31merror[39m: [31mFailed to connect to MongoDB: connect ECONNREFUSED 127.0.0.1:27017[39m
+2025-03-03 21:53:05:535 [31merror[39m: [31mFailed to connect to MongoDB: connect ECONNREFUSED 127.0.0.1:27017[39m
+2025-03-03 21:59:26:5926 [32minfo[39m: [32mConnected to MongoDB[39m
+2025-03-03 21:59:26:5926 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:26:5926 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:26:5926 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:26:5926 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:26:5926 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:27:5927 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:27:5927 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:27:5927 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:27:5927 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:27:5927 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:27:5927 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:27:5927 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:27:5927 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:27:5927 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:27:5927 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:28:5928 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:28:5928 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:28:5928 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:28:5928 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:29:5929 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:29:5929 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:29:5929 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:29:5929 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:30:5930 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:30:5930 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:30:5930 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:30:5930 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:31:5931 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:31:5931 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:31:5931 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:31:5931 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:32:5932 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:32:5932 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:32:5932 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:32:5932 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:33:5933 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:33:5933 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:33:5933 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:33:5933 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:34:5934 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:34:5934 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:34:5934 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:34:5934 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:35:5935 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:35:5935 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:35:5935 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:35:5935 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:36:5936 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:36:5936 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:36:5936 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:36:5936 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:37:5937 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:37:5937 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:37:5937 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:37:5937 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:38:5938 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:38:5938 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:38:5938 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:38:5938 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:39:5939 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:39:5939 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:39:5939 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:39:5939 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:40:5940 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:40:5940 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:40:5940 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:40:5940 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:41:5941 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:41:5941 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:41:5941 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:41:5941 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:42:5942 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:42:5942 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:42:5942 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:42:5942 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:43:5943 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:43:5943 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:43:5943 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:43:5943 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:44:5944 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:44:5944 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:44:5944 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:44:5944 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:45:5945 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:45:5945 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:45:5945 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:45:5945 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:46:5946 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:46:5946 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:46:5946 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:46:5946 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:47:5947 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:47:5947 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:47:5947 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:47:5947 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:48:5948 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:48:5948 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:48:5948 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:48:5948 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:49:5949 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:49:5949 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:49:5949 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:49:5949 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:50:5950 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:50:5950 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:50:5950 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:50:5950 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:51:5951 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:51:5951 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:51:5951 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:51:5951 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:52:5952 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:52:5952 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:52:5952 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:52:5952 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:53:5953 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:53:5953 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:53:5953 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:53:5953 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:54:5954 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:54:5954 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:54:5954 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:54:5954 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:55:5955 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:55:5955 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:55:5955 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:55:5955 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:56:5956 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:56:5956 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:56:5956 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:56:5956 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:57:5957 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:57:5957 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:57:5957 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:57:5957 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:58:5958 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:58:5958 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:58:5958 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:58:5958 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:59:5959 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:59:5959 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:59:59:5959 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 21:59:59:5959 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:00:00 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:00:00 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:00:00 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:00:00 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:01:01 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:01:01 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:01:01 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:01:01 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:02:02 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:02:02 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:02:02 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:02:02 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:03:03 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:03:03 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:03:03 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:03:03 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:04:04 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:04:04 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:04:04 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:04:04 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:05:05 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:05:05 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:05:05 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:05:05 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:06:06 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:06:06 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:06:06 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:06:06 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:07:07 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:07:07 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:07:07 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:07:07 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:08:08 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:08:08 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:08:08 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:08:08 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:09:09 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:09:09 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:09:09 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:09:09 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:10:010 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:10:010 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:10:010 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:10:010 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:11:011 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:11:011 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:11:011 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:11:011 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:12:012 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:12:012 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:12:012 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:12:012 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:13:013 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:13:013 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:13:013 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:13:013 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:14:014 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:14:014 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:14:014 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:14:014 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:15:015 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:15:015 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:15:015 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:15:015 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:16:016 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:16:016 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:16:016 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:16:016 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:17:017 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:17:017 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:17:017 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:17:017 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:18:018 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:18:018 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:18:018 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:18:018 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:19:019 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:19:019 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:19:019 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:20:020 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:20:020 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:20:020 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:21:021 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:21:021 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:21:021 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:21:021 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:22:022 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:22:022 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:22:022 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:22:022 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:23:023 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:23:023 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:23:023 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:23:023 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:24:024 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:24:024 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:24:024 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:24:024 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:25:025 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:25:025 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:25:025 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:25:025 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:26:026 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:26:026 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:26:026 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:26:026 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:27:027 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:27:027 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:27:027 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:27:027 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:28:028 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:28:028 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:28:028 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:28:028 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:29:029 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:29:029 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:29:029 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:29:029 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:30:030 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:30:030 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:30:030 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:30:030 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:31:031 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:31:031 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:31:031 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:31:031 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:32:032 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:32:032 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:32:032 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:32:032 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:33:033 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:33:033 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:33:033 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:33:033 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:34:034 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:34:034 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:34:034 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:34:034 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:35:035 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:35:035 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:35:035 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:35:035 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:36:036 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:36:036 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:36:036 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:36:036 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:37:037 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:37:037 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:37:037 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:37:037 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:38:038 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:38:038 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:38:038 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:38:038 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:39:039 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:39:039 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:39:039 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:39:039 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:40:040 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:40:040 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:40:040 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:40:040 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:41:041 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:41:041 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:41:041 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:41:041 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:42:042 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:42:042 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:42:042 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:42:042 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:43:043 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:43:043 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:43:043 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:43:043 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:44:044 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:44:044 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:44:044 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:44:044 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:45:045 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:45:045 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:45:045 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:45:045 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:46:046 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:46:046 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:46:046 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:46:046 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:47:047 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:47:047 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:47:047 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:47:047 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:48:048 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:48:048 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:48:048 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:48:048 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:49:049 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:49:049 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:49:049 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:49:049 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:50:050 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:50:050 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:50:050 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:50:050 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:51:051 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:51:051 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:51:051 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:51:051 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:52:052 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:52:052 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:52:052 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:52:052 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:53:053 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:53:053 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:53:053 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:53:053 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:54:054 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:54:054 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:54:054 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:54:054 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:55:055 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:55:055 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:55:055 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:55:055 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:56:056 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:56:056 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:56:056 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:56:056 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:57:057 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:57:057 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:57:057 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:57:057 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:58:058 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:58:058 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:58:058 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:58:058 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:59:059 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:59:059 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:00:59:059 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:00:59:059 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:01:00:10 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:01:00:10 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:01:00:10 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:01:00:10 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:01:01:11 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:01:01:11 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:01:01:11 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:01:01:11 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:01:02:12 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:01:02:12 [31merror[39m: [31mRedis error:[39m
+2025-03-03 22:01:02:12 [33mwarn[39m: [33mRedis client reconnecting[39m
+2025-03-03 22:01:02:12 [31merror[39m: [31mRedis error:[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mConnected to MongoDB[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mRedis client connected[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mConnected to Redis[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mServer running on port 3000[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mLocation verification scheduler initialized[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mLoaded 1 active users from database[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:03:53:353 [32minfo[39m: [32mLocation verification scheduler initialized successfully[39m
+2025-03-03 21:04:00:40 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:04:00:40 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:04:30:430 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:04:30:430 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:05:00:50 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:05:00:50 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:05:00:50 [32minfo[39m: [32mLoaded 1 active users from cache[39m
+2025-03-03 21:05:00:50 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:05:00:50 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:05:30:530 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:05:30:530 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:06:00:60 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:06:00:60 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:06:18:618 [32minfo[39m: [32mReceived shutdown signal, starting graceful shutdown...[39m
+2025-03-03 21:06:18:618 [32minfo[39m: [32mCancelled verification job for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:06:18:618 [32minfo[39m: [32mAll scheduled jobs stopped[39m
+2025-03-03 21:06:18:618 [32minfo[39m: [32mStopped all scheduled jobs[39m
+2025-03-03 21:06:18:618 [33mwarn[39m: [33mMongoDB connection disconnected[39m
+2025-03-03 21:06:18:618 [32minfo[39m: [32mMongoDB connection closed[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mConnected to MongoDB[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mRedis client connected[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mConnected to Redis[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mServer running on port 3000[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mLocation verification scheduler initialized[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mLoaded 1 active users from cache[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:06:25:625 [32minfo[39m: [32mLocation verification scheduler initialized successfully[39m
+2025-03-03 21:06:30:630 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:06:30:630 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:07:00:70 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:07:00:70 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:07:30:730 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:07:30:730 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:08:00:80 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:08:00:80 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:08:30:830 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:08:30:830 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 22:08:33:833 [31merror[39m: [31mFailed to connect to MongoDB: Authentication failed.[39m
+2025-03-03 22:08:51:851 [31merror[39m: [31mFailed to connect to MongoDB: Authentication failed.[39m
+2025-03-03 21:09:00:90 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:09:00:90 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:09:30:930 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:09:30:930 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:10:00:100 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:10:00:100 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:10:00:100 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:10:00:100 [32minfo[39m: [32mLoaded 1 active users from database[39m
+2025-03-03 21:10:00:100 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:10:30:1030 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:10:30:1030 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:11:00:110 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:11:00:110 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:11:30:1130 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:11:30:1130 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:12:00:120 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:12:00:120 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:12:30:1230 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:12:30:1230 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:13:00:130 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:13:00:130 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:13:30:1330 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:13:30:1330 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:14:00:140 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:14:00:140 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:14:30:1430 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:14:30:1430 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:15:00:150 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:15:00:150 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:15:00:150 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:15:00:150 [32minfo[39m: [32mLoaded 1 active users from database[39m
+2025-03-03 21:15:00:150 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:15:30:1530 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:15:30:1530 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:16:00:160 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:16:00:160 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:16:30:1630 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:16:30:1630 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:17:00:170 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:17:00:170 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:17:30:1730 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:17:30:1730 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:18:00:180 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:18:00:180 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:18:30:1830 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:18:30:1830 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:19:00:190 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:19:00:190 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:19:30:1930 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:19:30:1930 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:20:00:200 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:20:00:200 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:20:00:200 [32minfo[39m: [32mLoaded 1 active users from cache[39m
+2025-03-03 21:20:00:200 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:20:00:200 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:20:30:2030 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:20:30:2030 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:21:00:210 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:21:00:210 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:21:30:2130 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:21:30:2130 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:22:00:220 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:22:00:220 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:22:30:2230 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:22:30:2230 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:23:00:230 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:23:00:230 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:23:30:2330 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:23:30:2330 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:24:00:240 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:24:00:240 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:24:30:2430 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:24:30:2430 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:25:00:250 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:25:00:250 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:25:00:250 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:25:00:250 [32minfo[39m: [32mLoaded 1 active users from database[39m
+2025-03-03 21:25:00:250 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:25:30:2530 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:25:30:2530 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:26:00:260 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:26:00:260 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:26:30:2630 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:26:30:2630 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mLoaded 1 active users from database[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mLoaded 1 active users from cache[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mLoaded 1 active users from cache[39m
+2025-03-03 21:42:18:4218 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:42:18:4218 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:30:4230 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:42:30:4230 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mRefreshing active users list[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mLoaded 1 active users from cache[39m
+2025-03-03 21:45:36:4536 [32minfo[39m: [32mScheduled verification for user 67c619300af79bf6eba00aa1 with priority 2 (interval: 30000ms)[39m
+2025-03-03 21:45:36:4536 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:45:36:4536 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:46:00:460 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:46:00:460 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:46:30:4630 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:46:30:4630 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:47:00:470 [32minfo[39m: [32mPerforming location verification for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:47:00:470 [33mwarn[39m: [33mNo active safe zones found for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:47:24:4724 [32minfo[39m: [32mReceived shutdown signal, starting graceful shutdown...[39m
+2025-03-03 21:47:24:4724 [32minfo[39m: [32mCancelled verification job for user 67c619300af79bf6eba00aa1[39m
+2025-03-03 21:47:24:4724 [32minfo[39m: [32mAll scheduled jobs stopped[39m
+2025-03-03 21:47:24:4724 [32minfo[39m: [32mStopped all scheduled jobs[39m
+2025-03-03 21:47:24:4724 [33mwarn[39m: [33mMongoDB connection disconnected[39m
+2025-03-03 21:47:24:4724 [32minfo[39m: [32mMongoDB connection closed[39m
+2025-03-03 22:48:16:4816 [31merror[39m: [31mFailed to connect to MongoDB: Authentication failed.[39m
+2025-03-03 23:56:57:5657 [31merror[39m: [31mFailed to connect to MongoDB: Authentication failed.[39m
+2025-03-04 00:04:36:436 [31merror[39m: [31mFailed to connect to MongoDB: Authentication failed.[39m
+2025-03-04 00:08:06:86 [31merror[39m: [31mFailed to connect to MongoDB: Authentication failed.[39m
+2025-03-04 00:24:49:2449 [32minfo[39m: [32mConnected to MongoDB[39m
+2025-03-04 00:24:49:2449 [32minfo[39m: [32mConnected to MongoDB[39m
+2025-03-04 00:24:49:2449 [32minfo[39m: [32mRedis client connected[39m
+2025-03-04 00:24:49:2449 [32minfo[39m: [32mRedis client connected[39m
+2025-03-04 00:24:49:2449 [32minfo[39m: [32mConnected to Redis[39m
+2025-03-04 00:24:49:2449 [32minfo[39m: [32mConnected to Redis[39m
+2025-03-04 00:24:53:2453 [32minfo[39m: [32mConnected to MongoDB[39m
+2025-03-04 00:24:53:2453 [32minfo[39m: [32mConnected to MongoDB[39m
+2025-03-04 00:24:53:2453 [32minfo[39m: [32mRedis client connected[39m
+2025-03-04 00:24:53:2453 [32minfo[39m: [32mRedis client connected[39m
+2025-03-04 00:24:53:2453 [32minfo[39m: [32mConnected to Redis[39m
+2025-03-04 00:24:53:2453 [32minfo[39m: [32mConnected to Redis[39m
+2025-03-04 00:25:48:2548 [32minfo[39m: [32mConnected to MongoDB[39m

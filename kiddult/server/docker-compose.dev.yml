@@ -1,0 +1,59 @@
+version: '3.8'
+
+services:
+  # MongoDB service
+  mongodb:
+    image: mongo:6.0
+    container_name: location-verification-mongodb-dev
+    restart: always
+    ports:
+      - "27017:27017"
+    environment:
+      - MONGO_INITDB_ROOT_USERNAME=location_user
+      - MONGO_INITDB_ROOT_PASSWORD=location_password
+      - MONGO_INITDB_DATABASE=location-verification
+    volumes:
+      - mongodb_data_dev:/data/db
+      - ./docker/mongodb/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    networks:
+      - location-verification-network-dev
+
+  # Redis service
+  redis:
+    image: redis:7.0-alpine
+    container_name: location-verification-redis-dev
+    restart: always
+    ports:
+      - "6379:6379"
+    command: redis-server --requirepass redispassword
+    volumes:
+      - redis_data_dev:/data
+    networks:
+      - location-verification-network-dev
+
+  # App service
+  app:
+    build: .
+    container_name: location-verification-app-dev
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - MONGODB_URI=mongodb://location_user:location_password@mongodb:27017/location-verification
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+      - REDIS_PASSWORD=redispassword
+    depends_on:
+      - mongodb
+      - redis
+    networks:
+      - location-verification-network-dev
+
+networks:
+  location-verification-network-dev:
+    driver: bridge
+
+volumes:
+  mongodb_data_dev:
+  redis_data_dev:

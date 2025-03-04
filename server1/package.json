@@ -1,0 +1,17 @@
+{
+  "name": "talent-arena",
+  "version": "1.0.0",
+  "description": "Вот пример промта для разработки **MVC** (Model-View-Controller) приложения с минимальным функционалом для демонстрации работы с **Nokia API endpoints**:",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.8.1",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2"
+  }
+}

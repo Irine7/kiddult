@@ -1,0 +1,88 @@
+{
+  "projectName": "Talent Arena",
+  "description": "Платформа для поиска и управления талантами",
+  "version": "1.0.0",
+  
+  "technology": {
+    "language": "TypeScript",
+    "framework": "Next.js",
+    "styling": "Tailwind CSS",
+    "stateManagement": "React Context + Zustand",
+    "database": "PostgreSQL",
+    "orm": "Prisma"
+  },
+  
+  "i18n": {
+    "library": "next-intl",
+    "defaultLocale": "ru",
+    "supportedLocales": ["ru", "en"],
+    "translationsPath": "@/i18n"
+  },
+  
+  "architecture": {
+    "folderStructure": "feature-based",
+    "componentDesign": "atomic",
+    "apiPattern": "REST + tRPC"
+  },
+  
+  "directoryStructure": {
+    "src": {
+      "app": "Файлы маршрутизации Next.js",
+      "components": {
+        "atoms": "Базовые компоненты (кнопки, поля ввода)",
+        "molecules": "Составные компоненты (формы, карточки)",
+        "organisms": "Сложные компоненты (секции, блоки)",
+        "templates": "Шаблоны страниц"
+      },
+      "features": {
+        "auth": "Аутентификация и авторизация",
+        "talents": "Управление талантами",
+        "projects": "Управление проектами",
+        "analytics": "Аналитика и отчеты",
+        "messaging": "Внутренняя коммуникация"
+      },
+      "i18n": "Файлы локализации",
+      "lib": "Вспомогательные библиотеки",
+      "server": {
+        "api": "API маршруты",
+        "db": "Конфигурация и модели базы данных",
+        "auth": "Аутентификация на стороне сервера",
+        "middleware": "Промежуточные обработчики"
+      },
+      "styles": "Глобальные стили и темы",
+      "types": "Глобальные типы TypeScript",
+      "utils": "Утилиты и хелперы"
+    },
+    "public": "Статические ресурсы",
+    "prisma": "Схема и миграции базы данных",
+    "tests": "Тесты"
+  },
+  
+  "codeGuidelines": {
+    "documentationLanguage": "Russian",
+    "naming": "camelCase для переменных, PascalCase для компонентов",
+    "linting": "ESLint + Prettier",
+    "testing": "Jest + React Testing Library",
+    "componentStructure": "Функциональные компоненты с хуками",
+    "stateManagement": "Server components + Client context",
+    "errorHandling": "Try/catch с логированием",
+    "accessibility": "WCAG AA стандарт"
+  },
+  
+  "performance": {
+    "imageTechniques": "Next Image с оптимизацией",
+    "codeOptimization": "Tree shaking, code splitting",
+    "caching": "SWR для данных, статический рендеринг где возможно",
+    "bundleSizeMonitoring": true
+  },
+  
+  "deployment": {
+    "cicd": "GitHub Actions",
+    "hosting": "Vercel",
+    "environment": {
+      "development": "Локальная разработка",
+      "staging": "Тестовое окружение",
+      "production": "Продакшн"
+    }
+  }
+}

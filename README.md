@@ -1,180 +1,139 @@
+# Location Verification Server
 
-**Objective:**
-Create an MVC-based application that demonstrates the correct interaction with **Nokia API endpoints**. The application will include basic functionality to authenticate, retrieve, and display data from Nokia APIs.
+A Node.js server application that performs location verification for vulnerable individuals.
 
----
+## Features
 
-### **Features**:
+- Continuous location checks every 30 seconds
+- Integration with Nokia API for precise geolocation tracking
+- Safe zone (geofence) boundary verification
+- Immediate notifications for boundary violations
+- Multi-user support with individual safe zones
+- Error handling and retry mechanisms
+- Comprehensive logging of verification attempts and violations
+- Priority-based verification scheduling
+- Health monitoring endpoints
 
-1. **User Authentication**:
-   - **Model**: Create a `User` model that stores user credentials for authentication.
-   - **Controller**: Implement an `AuthController` for handling user login and authentication requests.
-   - **View**: A simple login form where users can input their credentials (username and password).
+## Technical Stack
 
-2. **Integration with Nokia APIs**:
-   - **Model**: Create a `NokiaAPIModel` that interacts with Nokia API endpoints (Location, Device Status, etc.).
-   - **Controller**: Implement a `NokiaController` that fetches data from Nokia APIs, such as location verification or device status.
-   - **View**: A page that displays the result of API calls (e.g., location data, device status).
+- **Node.js** with Express for the server
+- **MongoDB** for storing user profiles and safe zones
+- **Redis** for caching frequent location checks
+- **PM2** for process management and clustering
+- **Winston** for logging
+- **Axios** for API requests
+- **Node-schedule** for scheduling verification tasks
 
-3. **Location Data Retrieval**:
-   - **Model**: `LocationModel` to store and handle location data retrieved from the **Nokia Location Verification API**.
-   - **Controller**: A method in `NokiaController` that calls the Nokia API, retrieves the location data, and passes it to the view.
-   - **View**: Display the current location on the UI, formatted or on a map (optional).
+## Getting Started
 
-4. **Device Status Monitoring**:
-   - **Model**: `DeviceStatusModel` to store device status data retrieved from the **Nokia Device Status API**.
-   - **Controller**: A method in `NokiaController` that checks the device's connection status via the API.
-   - **View**: Display the device’s connectivity status on the UI.
+### Prerequisites
 
-5. **Error Handling**:
-   - Proper error handling in the controllers when interacting with the Nokia API, including API failures and invalid responses.
-   - Display error messages in the view in case of issues.
+- Node.js (v16 or higher)
+- MongoDB
+- Redis
 
----
+### Installation
 
-### **Tech Stack:**
+1. Clone the repository
+2. Install dependencies:
 
-1. **Frontend**:
-   - **HTML/CSS** for the basic structure and styling of the pages.
-   - **JavaScript** for dynamic content loading (using **Fetch API** or **Axios** for AJAX calls).
-   - **Bootstrap** for simple and responsive UI components.
-
-2. **Backend**:
-   - **Node.js** with **Express.js** for the backend framework.
-   - **Nokia API SDK** or custom API client (e.g., Axios, Fetch) for interacting with Nokia endpoints.
-   - **EJS** or **Pug** as a view engine for rendering HTML views.
-
-3. **Database**:
-   - **MongoDB** (or an in-memory database) for storing user data (optional, if required for storing login information).
-
-4. **External APIs**:
-   - **Nokia Location Verification API** for retrieving location data.
-   - **Nokia Device Status API** for retrieving device status.
-
----
-
-### **Implementation Steps**:
-
-1. **Create the `User` Model**:
-   - Define a schema for the `User` model (if using MongoDB).
-   - Implement methods to handle user authentication.
-
-2. **Set Up Authentication Controller (`AuthController`)**:
-   - Create routes for login and session management.
-   - Implement login functionality, validating user credentials and starting a session.
-
-3. **Integrate Nokia API**:
-   - Create the `NokiaAPIModel` to interact with the Nokia Location Verification and Device Status APIs.
-   - Implement methods to call API endpoints and retrieve the necessary data.
-
-4. **Create `NokiaController`**:
-   - Implement methods to fetch data from the Nokia API endpoints:
-     - **Location API**: Retrieve and display location data.
-     - **Device Status API**: Retrieve and display device status.
-   - Handle errors and failures when calling the APIs.
-
-5. **Create Views**:
-   - Create views to:
-     - Display the login form.
-     - Display fetched location and device status information.
-   - Ensure data is presented clearly and handle any errors gracefully.
-
-6. **Routing**:
-   - Set up routes for login (`/login`), fetching location (`/location`), and device status (`/device-status`).
-   - Connect each route to the appropriate controller action.
-
-7. **Error Handling**:
-   - Ensure proper error handling if the Nokia API endpoints fail (e.g., network errors, invalid responses).
-   - Display user-friendly error messages in the view.
-
-8. **Deploy**:
-   - Deploy the application to a cloud platform (e.g., Heroku) for easy access and testing.
-
----
-
-### **Sample Code Structure**:
-
-```
-/project
-  /controllers
-    authController.js
-    nokiaController.js
-  /models
-    userModel.js
-    locationModel.js
-    deviceStatusModel.js
-  /views
-    login.ejs
-    locationView.ejs
-    deviceStatusView.ejs
-  /public
-    /css
-    /js
-  /routes
-    authRoutes.js
-    nokiaRoutes.js
-  app.js
-  package.json
+```bash
+npm install
 ```
 
----
+3. Create a `.env` file based on `.env.example` and fill in your configuration values.
 
-### **Sample Code Snippets**:
+### Running the Server
 
-**1. `authController.js` (Authentication Logic)**:
-```js
-const User = require('../models/userModel');
+#### Development Mode
 
-exports.login = async (req, res) => {
-  const { username, password } = req.body;
-  const user = await User.findByUsername(username);
-
-  if (!user || user.password !== password) {
-    return res.status(401).send('Invalid credentials');
-  }
-
-  req.session.user = user;
-  res.redirect('/location');
-};
+```bash
+npm run dev
 ```
 
-**2. `nokiaController.js` (Nokia API Logic)**:
-```js
-const axios = require('axios');
+#### Production Mode
 
-exports.getLocation = async (req, res) => {
-  try {
-    const response = await axios.get('https://api.nokia.com/location', {
-      params: { deviceId: req.session.user.deviceId },
-    });
-    res.render('locationView', { location: response.data });
-  } catch (error) {
-    res.status(500).send('Error fetching location data');
-  }
-};
-
-exports.getDeviceStatus = async (req, res) => {
-  try {
-    const response = await axios.get('https://api.nokia.com/device-status', {
-      params: { deviceId: req.session.user.deviceId },
-    });
-    res.render('deviceStatusView', { status: response.data.status });
-  } catch (error) {
-    res.status(500).send('Error fetching device status');
-  }
-};
+```bash
+npm start
 ```
 
-**3. `locationView.ejs` (Location Display)**:
-```html
-<h1>Current Location</h1>
-<p>Latitude: <%= location.latitude %></p>
-<p>Longitude: <%= location.longitude %></p>
+#### Using PM2
+
+```bash
+pm2 start ecosystem.config.js
 ```
 
-**4. `deviceStatusView.ejs` (Device Status Display)**:
-```html
-<h1>Device Status</h1>
-<p>Status: <%= status %></p>
-```
+## API Endpoints
 
+### Users
+
+- `GET /api/users` - Get all users
+- `GET /api/users/:id` - Get user by ID
+- `POST /api/users` - Create new user
+- `PUT /api/users/:id` - Update user
+- `DELETE /api/users/:id` - Delete user
+- `PATCH /api/users/:id/monitoring` - Update user monitoring status
+- `PATCH /api/users/:id/priority` - Update user priority level
+
+### Safe Zones
+
+- `GET /api/safe-zones` - Get all safe zones
+- `GET /api/safe-zones/user/:userId` - Get safe zones by user ID
+- `GET /api/safe-zones/:id` - Get safe zone by ID
+- `POST /api/safe-zones` - Create new safe zone
+- `PUT /api/safe-zones/:id` - Update safe zone
+- `DELETE /api/safe-zones/:id` - Delete safe zone
+- `PATCH /api/safe-zones/:id/status` - Update safe zone active status
+
+### Verifications
+
+- `GET /api/verifications` - Get verification history
+- `GET /api/verifications/:id` - Get verification by ID
+- `GET /api/verifications/user/:userId` - Get verifications by user ID
+- `POST /api/verifications/trigger/:userId` - Trigger manual verification
+- `GET /api/verifications/violations` - Get boundary violations
+
+### Health Monitoring
+
+- `GET /health` - Get system health status
+- `GET /health/mongodb` - Get MongoDB status
+- `GET /health/redis` - Get Redis status
+
+## Architecture
+
+### Core Components
+
+1. **Scheduler Service**: Manages the scheduling of location verification tasks based on user priority.
+2. **Verification Service**: Handles the core location verification logic, including API calls and boundary checks.
+3. **Notification Service**: Manages sending notifications when boundary violations occur.
+4. **Database Service**: Handles database connections and operations.
+5. **Cache Service**: Manages Redis caching for frequently accessed data.
+
+### Data Flow
+
+1. Scheduler loads active monitoring profiles from the database
+2. For each user, a verification job is scheduled based on priority
+3. When a job runs, the verification service:
+   - Retrieves the user's current location from Nokia API
+   - Fetches the user's safe zones from the database (or cache)
+   - Checks if the location is within the safe zones
+   - If a boundary violation is detected, sends notifications
+   - Logs the verification result
+
+### Error Handling
+
+- Exponential backoff for failed API calls
+- Automatic retries for transient errors
+- Fallback notification mechanisms
+- Comprehensive error logging
+
+### Scalability Considerations
+
+- Clustering with PM2 for multi-core utilization
+- Redis caching to reduce database load
+- Efficient scheduling based on priority levels
+- Rate limiting to prevent API abuse
+
+## License
+
+This project is licensed under the MIT License.
